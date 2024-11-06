@@ -1,0 +1,130 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f4ff; /* Biru lembut */
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background: linear-gradient(135deg, #ff5c93, #2196f3); /* Gradien pink ke biru */
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 150px); /* Menjaga ruang untuk header dan footer */
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 15px;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.5);
+    transition: background 0.4s, transform 0.3s, box-shadow 0.4s;
+    font-size: 1.2em;
+}
+
+.button:hover {
+    background: linear-gradient(135deg, #0056b3, #003d80);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.7);
+}
+
+
+section {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    width: 300px; /* Lebar tetap */
+}
+
+/* Title styles */
+h2 {
+    color: #2196f3; /* Biru cerah */
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #ff5c93; /* Pink cerah */
+}
+
+form input[type="text"],
+form input[type="password"] {
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+form input[type="text"]:focus,
+form input[type="password"]:focus {
+    border-color: #ff5c93; /* Pink cerah */
+    box-shadow: 0 0 5px rgba(255, 92, 147, 0.5);
+    outline: none;
+}
+
+form input[type="submit"] {
+    background: #ff5c93; /* Pink cerah */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 14px;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.2s;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+    background: #e91e63; /* Pink lebih gelap */
+    transform: translateY(-2px);
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #2196f3; /* Biru cerah */
+    color: #fff;
+}
+
+/* Link styles */
+p {
+    margin-top: 15px;
+}
+
+p a {
+    color: #2196f3; /* Biru cerah */
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
